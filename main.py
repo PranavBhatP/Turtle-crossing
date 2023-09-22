@@ -66,15 +66,5 @@ while game_is_on:
 
     scr_board.score_update()
 
-    
-        
-
-    
-
-
-
-
-
 screen.exitonclick()
-
 #Game Complete!!
