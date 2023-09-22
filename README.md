@@ -11,7 +11,7 @@
 <h3> As you reach the finish line your level increases. </h3>
 
 <video width="320" height="240" controls>
-  <source src="game_video.mp4" type="video/mp4">
+  <source src="game_video.mp4" type="video/mp4"></source>
 </video>
 
 
