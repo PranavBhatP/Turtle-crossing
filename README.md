@@ -1,2 +1,6 @@
 # Turtle-crossing
-New novel game in Python
+
+### This is my new novel game in Python.
+
+<img src = "game.png">Game</img>
+
