@@ -1,7 +1,7 @@
 # Turtle-crossing
 
 ### This is my new novel game in Python.
-<video src = "game_video.mp4" height = 180 width = 320></video>
+
 <img src = "game.png" ></img>
 <h1>How does this work?</h1>
 
