@@ -4,6 +4,8 @@ from turtle import Screen
 from player import Player
 from car_manager import CarManager
 from scoreboard import Scoreboard
+import winsound
+
 
 player = Player()
 car_mng = CarManager()
@@ -44,6 +46,7 @@ while game_is_on:
 
     for car in car_mng.cars_list:
         if car.distance(player) < 15:
+            #winsound.PlaySound('squish.wav', winsound.SND_ASYNC)
             scr_board.clear()
             player.goto((0, -280))
             for car in car_mng.cars_list[10:]:
