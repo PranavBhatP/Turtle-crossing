@@ -46,8 +46,9 @@ while game_is_on:
 
     for car in car_mng.cars_list:
         if car.distance(player) < 15:
-            #winsound.PlaySound('squish.wav', winsound.SND_ASYNC)
+            
             scr_board.clear()
+            winsound.PlaySound("squish.wav", winsound.SND_ASYNC)
             player.goto((0, -280))
             for car in car_mng.cars_list[10:]:
                 car.goto((1000,1000))
@@ -61,6 +62,7 @@ while game_is_on:
             print(scr_board.level)
             print(car_mng.cars_list[9].speed())
             scr_board.write("Game Over!", align = "center",font=("Courier", 24, "normal"))
+            
             time.sleep(1)
     
     
